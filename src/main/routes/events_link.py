@@ -16,6 +16,6 @@ def create_new_link():
 
     http_request = HttpRequest(body=request.json)
 
-    http_response = events_link_creator.create(http_request)
+    http_response = events_link_creator.create(http_request) 
 
     return jsonify(http_response.body), http_response.status_code
