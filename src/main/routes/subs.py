@@ -7,7 +7,7 @@ from src.http_types.http_request import HttpRequest
 from src.validators.subscribers_creator_validator import subscribers_creator_validator
 
 from src.model.repositories.subscribers_repository import SubscribersRepository
-
+ 
 from src.controllers.subscribers.subscribers_creator import SubscribersCreator
 
 @subs_route_bp.route("/subscriber", methods=["POST"])
